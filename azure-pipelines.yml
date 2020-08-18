@@ -30,5 +30,5 @@ stages:
     - task: PublishPipelineArtifact@1
       displayName: 'Publish Pipeline Artifact'
       inputs:
-        targetPath: '$(build.artifactstagingdirectory)'
+        targetPath: '$(build.artifactstagingdirectory)/ImageRepo'
         artifact: drop
